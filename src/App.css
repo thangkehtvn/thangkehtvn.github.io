@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 12.5vh;
+    max-width: 100%;
+    background: #D38312;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #A83279, #D38312);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #A83279, #D38312);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-baner {
+    padding-bottom: 40px;
+}
+
+.baner-text {
+    text-align: center;
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.baner-text .text {
+    margin: 10px 0px;
+}
+
+.baner-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: wheat;
+}
+
+.baner-text hr {
+    border-top: 5px dotted wheat;
+    width: 50%;
+    margin: auto;
+    padding: 2em 0.5em;
+}
+
+.baner-text p {
+    color: wheat;
+    font-size: 23px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-links i {
+    color: wheat;
+    font-size: 4em;
+    padding: 5px;
+}
+
+@media only screen and (min-width:768px) {
+    .container {
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .baner-text {
+        width: 100%;
+    }
+    .baner-text p {
+        font-size: 18px;
+    }
+}
